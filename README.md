@@ -6,4 +6,5 @@ However, I accidentally damaged the repository so this is a new repo, fresh star
 I am following the [HTML course on YouTube](https://youtube.com/playlist?list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji&si=dUjI7GmryJQCPplX) to learn HTML.
 I use GitHub Copilot to manage my code and assist with my task
 
-![hello](https://raw.githubusercontent.com/NoorBnHossam/html_zero/main/8758527812_f345a6d9db_z.jpg){ width=50% }
+
+![hello](https://raw.githubusercontent.com/NoorBnHossam/html_zero/main/8758527812_f345a6d9db_z.jpg)
