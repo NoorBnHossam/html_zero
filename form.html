@@ -10,7 +10,7 @@
     <section>
       <h2>Cyber Hoodie Store</h2>
       <p>Select your custom cyber-themed hoodie below.</p>
-      <form action="" method="GET">
+      <form action="" method="GET" novalidate target="_blank">
         <input type="hidden" value="Customer" />
         <div>
           <label>Customer Name</label>
@@ -28,8 +28,16 @@
             type="text"
             name="design"
             placeholder="e.g., Matrix, Cyberpunk"
+            list="designs"
             autofocus
           />
+          <!-- Lesson 9 -->
+          <datalist id="designs">
+            <option value="Matrix"></option>
+            <option value="Cyberpunk"></option>
+            <option value="Hacker"></option>
+            <option value="Neon"></option>
+          </datalist>
         </div>
         <br />
         <div>
