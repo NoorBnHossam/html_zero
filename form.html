@@ -4,6 +4,79 @@
     <meta charset="UTF-8" />
     <title>Cyber Hoodie Store</title>
     <meta name="description" content="Cyber-themed hoodie store" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+      section {
+        background-color: #fff;
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        color: #333;
+      }
+      form div {
+        margin-bottom: 15px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      input[type="text"],
+      input[type="email"],
+      input[type="color"],
+      input[type="range"],
+      input[type="number"],
+      input[type="file"],
+      input[type="search"],
+      input[type="url"],
+      input[type="date"],
+      input[type="month"],
+      input[type="time"] {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      input[type="radio"],
+      input[type="checkbox"] {
+        margin-right: 10px;
+      }
+      button,
+      input[type="reset"],
+      input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button:hover,
+      input[type="reset"]:hover,
+      input[type="submit"]:hover {
+        background-color: #0056b3;
+      }
+      hr {
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin: 20px 0;
+      }
+      pre {
+        background-color: #f4f4f4;
+        padding: 10px;
+        border-radius: 4px;
+      }
+    </style>
   </head>
   <body>
     <!-- Cyber Hoodie Store Form Section -->
@@ -22,7 +95,6 @@
             name="customer"
           />
         </div>
-        <br />
         <div>
           <label for="design">Hoodie Design</label>
           <input
@@ -40,7 +112,6 @@
             <option value="Neon"></option>
           </datalist>
         </div>
-        <br />
         <div>
           <label for="mail">Email</label>
           <input
@@ -51,12 +122,10 @@
             name="mail"
           />
         </div>
-        <br />
         <div>
           <label for="color">Hoodie Color</label>
           <input id="color" type="color" name="color" value="#000000" />
         </div>
-        <br />
         <div>
           <label for="size">Size Chart (XS - XXL)</label>
           <input
@@ -69,7 +138,6 @@
             value="3"
           />
         </div>
-        <br />
         <div>
           <label for="num">Quantity</label>
           <input
@@ -121,7 +189,6 @@
           />
           <label for="reflective">Reflective Print</label>
         </div>
-        <br />
         <hr />
         <div>
           <label for="upload">Upload</label>
@@ -153,12 +220,10 @@
           <input id="time" type="time" />
         </div>
         <hr />
-        <br />
         <div>
           <label>Favorite Quote</label>
           <q>“Hack the box, not just think outside it ”</q>
         </div>
-        <br />
         <div>
           <label>Fake Customer Testimonial</label>
           <blockquote>
@@ -167,7 +232,6 @@
             found a good wife 👉👈"
           </blockquote>
         </div>
-        <br />
         <div>
           <label for="username">Username</label>
           <input
@@ -179,18 +243,15 @@
           <wbr />
           <span>Note: Your username should be unique and memorable.</span>
         </div>
-        <br />
         <div>
           <label>Bi-directional Text</label>
           <bdi>username123</bdi>
         </div>
-        <br />
         <div>
           <button type="button" onclick="alert('Button clicked!')">
             Click Me!
           </button>
         </div>
-        <br />
         <div>
           <label>Clickjacking mode on</label>
           <iframe
@@ -203,7 +264,6 @@
             allowfullscreen
           ></iframe>
         </div>
-        <br />
         <div>
           <label>Code Example</label>
           <pre>
@@ -215,7 +275,6 @@
             </code>
           </pre>
         </div>
-        <br />
         <input type="reset" value="Clear Form" />
         <input type="submit" value="Order Now" />
       </form>
