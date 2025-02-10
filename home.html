@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My HTML Learning Journey</title>
+    <meta name="description" content="this contains elzero's course" />
+  </head>
+  <body>
+    <!-- Welcome Section -->
+    <h1>Welcome to My HTML Learning Journey</h1>
+    <p>This page documents everything I learn about HTML</p>
+
+    <!-- Headings Section -->
+    <section>
+      <h2>HTML Heading Examples</h2>
+      <h1>Welcome to My Website</h1>
+      <h2>About Us</h2>
+      <!-- e3tabr fy data hena -->
+      <h3>Our Team</h3>
+      <h4>Departments</h4>
+      <h5>Project Details</h5>
+      <h6>Contact Info</h6>
+    </section>
+
+    <!-- Text Formatting Section -->
+    <section>
+      <h2>Text Formatting</h2>
+      <p><strong>Bold text</strong> and <em>italic text</em> example.</p>
+      <p><u>Underlined text</u> and <s>Strikethrough text</s>.</p>
+      <p>This is <mark>highlighted text</mark>.</p>
+      <p>This is <small>small text</small>.</p>
+      <p>This is <del>deleted text</del> and <ins>inserted text</ins>.</p>
+      <p>H<sub>2</sub>O and 2<sup>2</sup> = 4.</p>
+    </section>
+
+    <!-- Links Section -->
+    <section>
+      <h2>Links</h2>
+      <p>
+        Visit
+        <a href="https://google.com" target="_blank" title="Go To Google"
+          >Google</a
+        >.
+      </p>
+      <p>
+        Visit
+        <a href="https://facebook.com" title="Facebook">Facebook</a>.
+      </p>
+      <p>Contact me <a href="noorbnhossam@gmail.com">Email</a>.</p>
+    </section>
+
+    <!-- Images Section -->
+    <section>
+      <h2>Images</h2>
+      <img src="./cat-nerd-emoji.png" alt="Cat Nerd Emoji" />
+    </section>
+
+    <!-- Lists Section -->
+    <section>
+      <h2>Lists</h2>
+      <h3>Unordered List</h3>
+      <ul>
+        <li>Network Security</li>
+        <li>Cryptography</li>
+        <li>
+          Penetration Testing
+          <ul>
+            <li>Vulnerability Assessment</li>
+            <li>Exploitation</li>
+            <li>Post-Exploitation</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>Ordered List</h3>
+      <ol start="1">
+        <li>ID</li>
+        <li>Name</li>
+        <li>Address</li>
+      </ol>
+
+      <h3>Description List</h3>
+      <dl>
+        <dt>HTML</dt>
+        <dd>Language of the Web</dd>
+        <dt>CSS</dt>
+        <dd>Language of the Visuals</dd>
+      </dl>
+    </section>
+
+    <!-- Tables Section -->
+    <section>
+      <h2>Tables</h2>
+      <table border="1">
+        <caption>
+          Students Marks
+        </caption>
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Marks</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>noor</td>
+            <td>hossam</td>
+            <td>95</td>
+          </tr>
+          <tr>
+            <td>ahmed</td>
+            <td>mo7sen</td>
+            <td>88</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2">Total</td>
+            <td>183</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <!-- Forms Section -->
+    <section>
+      <h2>Forms</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <br />
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" />
+        <br />
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate" />
+        <br />
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color" />
+        <br />
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file" />
+        <br />
+        <label for="bio">Bio:</label>
+        <textarea id="bio" name="bio"></textarea>
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <!-- Audio and Video Section -->
+    <section>
+      <h2>Audio & Video</h2>
+      <audio controls>
+        <source src="audio.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+      <video controls width="300">
+        <source src="video.mp4" type="video/mp4" />
+        Your browser does not support the video element.
+      </video>
+    </section>
+
+    <!-- Semantic Elements Section -->
+    <section>
+      <h2>Semantic Elements</h2>
+      <header>
+        <h1>Header Section</h1>
+        <p>This is the header of the page.</p>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <article>
+        <h2>Article Title</h2>
+        <p>This is an article section.</p>
+      </article>
+      <footer>
+        <p>Footer Section</p>
+      </footer>
+    </section>
+
+    <!-- HTML Entities Section -->
+    <section>
+      <h2>HTML Entities</h2>
+      <p>Less than: &lt;</p>
+      <p>Greater than: &gt;</p>
+      <p>Ampersand: &amp;</p>
+      <p>Double quotes: &quot;</p>
+      <p>Single quote: &apos;</p>
+      <p>Copyright: &copy;</p>
+    </section>
+
+    <!-- Accessibility Section -->
+    <section>
+      <h2>Accessibility</h2>
+      <img src="images.jpeg" />
+      <button aria-label="Close">X</button>
+    </section>
+
+    <!-- Line Breaks and Horizontal Rules -->
+    <section>
+      <h2>Line Breaks and Horizontal Rules</h2>
+      <p>This is the first line. <br />This is the second line.</p>
+      <hr />
+      <p>This is a new section after the horizontal rule</p>
+      <section>
+        <h2>Accessibility</h2>
+        <img
+          src="8758527812_f345a6d9db_z.jpg"
+          alt="An image"
+          width="300"
+          height="300"
+        />
+      </section>
+    </section>
+  </body>
+</html>
