@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cyber Hoodie Store</title>
+    <meta name="description" content="Cyber-themed hoodie store" />
+  </head>
+  <body>
+    <!-- Cyber Hoodie Store Form Section -->
+    <section>
+      <h2>Cyber Hoodie Store</h2>
+      <p>Select your custom cyber-themed hoodie below.</p>
+      <form action="" method="GET">
+        <input type="hidden" value="Customer" />
+        <div>
+          <label>Customer Name</label>
+          <input
+            type="text"
+            required
+            placeholder="Enter your name"
+            name="customer"
+          />
+        </div>
+        <br />
+        <div>
+          <label>Hoodie Design</label>
+          <input
+            type="text"
+            name="design"
+            placeholder="e.g., Matrix, Cyberpunk"
+            autofocus
+          />
+        </div>
+        <br />
+        <div>
+          <label>Email</label>
+          <input
+            type="email"
+            required
+            placeholder="Enter your email"
+            name="mail"
+          />
+        </div>
+        <br />
+        <div>
+          <label>Hoodie Color</label>
+          <input type="color" name="Color" value="#000000" />
+        </div>
+        <br />
+        <div>
+          <label>Size Chart (X - XXL)</label>
+          <input type="range" name="size" min="1" max="6" step="1" value="3" />
+        </div>
+        <br />
+        <div>
+          <label for="num">Quantity</label>
+          <input
+            id="num"
+            type="number"
+            name="quantity"
+            min="1"
+            max="10"
+            step="1"
+            value="1"
+          />
+        </div>
+        <hr />
+        <div>
+          <h4>Style Preference:</h4>
+          <input
+            id="cyber"
+            type="radio"
+            name="style"
+            value="Cyberpunk"
+            checked
+          />
+          <label for="cyber">Cyberpunk</label>
+        </div>
+        <div>
+          <input id="hack" type="radio" name="style" value="Hacker" />
+          <label for="hack">Hacker</label>
+        </div>
+        <div>
+          <input id="matrix" type="radio" name="style" value="Matrix" />
+          <label for="matrix">Matrix</label>
+        </div>
+        <hr />
+        <div>
+          <h4>Add-ons:</h4>
+          <input id="glow" type="checkbox" name="features" value="GlowInDark" />
+          <label for="glow">Glow in Dark</label>
+        </div>
+        <div>
+          <input id="led" type="checkbox" name="features" value="LEDStrips" />
+          <label for="led">LED Strips</label>
+        </div>
+        <div>
+          <input
+            id="reflective"
+            type="checkbox"
+            name="features"
+            value="Reflective"
+          />
+          <label for="reflective">Reflective Print</label>
+        </div>
+        <br />
+        <input type="reset" value="Clear Form" />
+        <input type="submit" value="Order Now" />
+      </form>
+    </section>
+  </body>
+</html>
